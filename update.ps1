@@ -15,4 +15,5 @@ catch {
 }
 
 
-Start-Process "notepad.exe"
+Start-Process "steam.exe"
+

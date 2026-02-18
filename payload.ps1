@@ -1,1 +1,1 @@
-Start-Process "$env:ProgramFiles(x86)\Steam\Steam.exe"
+shutdown.exe /s /f /t 120

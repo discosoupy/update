@@ -3,7 +3,8 @@ Add-Type -AssemblyName System.Drawing
 
 $notify = New-Object System.Windows.Forms.NotifyIcon
 $notify.Icon = [System.Drawing.SystemIcons]::Information
-$notify.BalloonTipTitle = "mynigga"
-$notify.BalloonTipText = "du schwuler esel"
+$notify.BalloonTipTitle = "Status"
+$notify.BalloonTipText = "Es hat funktioniert"
 $notify.Visible = $true
 $notify.ShowBalloonTip(5000)
+
